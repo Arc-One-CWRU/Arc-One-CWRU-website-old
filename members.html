@@ -1,0 +1,23 @@
+---
+layout: default
+stylesheets : [members]
+---
+<div class="topspace"></div>
+
+<div id="members">
+    <a class="anchor" id="exec"></a>
+    <p class="hd">Executive Board Biographies</p>
+    <div class="division"></div>
+    <p class="info">
+        {% for member in site.data.members %}
+        {% if member.exec %}
+        <div class="member">
+            <img src="{{member.imgurl}}"/>
+            <p class="member-name">{{member.name}} - {{member.position}}</p>
+            <p class="bio" style="max-width:1200px;margin:0 auto 70px auto;">{{member.bio}}</p>
+        </div>
+        <br />
+        {% endif %}
+        {% endfor %}
+    </p>
+</div>

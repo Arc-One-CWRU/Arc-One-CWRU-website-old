@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+
+  <div class="topspace"></div>
+  <div id="blog">
+    <img style="max-width: 80%;" src="{{page.imgurl}}"/>
+    <p class="blog_title"> {{page.subhead}} </p>
+    <div class="division"></div>
+    {{ content }}
+
+    <!-- for date formatting, see: https://shopify.github.io/liquid/filters/date/ -->
+    <p class="blog_author">
+      {{page.author}}<br>
+      {{page.author-role}}<br>
+      {{ page.date | date: "%B %d, %Y" }}
+    </p>
+  </div>
+
+</body> 
+
+</html>

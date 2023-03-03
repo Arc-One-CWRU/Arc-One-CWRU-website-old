@@ -1,0 +1,6 @@
+- name: Michael Carlstrom
+  exec: true
+  position: Vice President
+  email: rmc170@case.edu
+  imgurl: res/members/michael_carlstrom.png
+  bio: I’m a junior studying computer science with a specialization in artificial intelligence. While I am not in the robotics bay, I am found playing cards and board games.
