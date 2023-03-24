@@ -1,6 +1,83 @@
+- name: Vishnu Ramasamy
+  exec: true
+  position: Team Lead
+  email: vxv191@case.edu
+  imgurl: res/wip.png
+  bio: 
+
+- name: Dr. John Lewandowski 
+  exec: true
+  position:  Advising Professor
+  email: jjl3@case.edu
+  imgurl: res/wip.png
+  bio: 
+  
 - name: Michael Carlstrom
   exec: true
-  position: Vice President
+  position: Controller Team
   email: rmc170@case.edu
   imgurl: res/members/michael_carlstrom.png
   bio: I’m a junior studying computer science with a specialization in artificial intelligence. While I am not in the robotics bay, I am found playing cards and board games.
+  
+- name: Max Sun
+  exec: true
+  position: Hardware Team
+  email: mts113@case.edu
+  imgurl: res/members/max_sun.png
+  bio: Graduating senior majoring in Electrical Engineering and Computer Engineering. I enjoy building computers and playing volleyball.
+  
+- name: Bathlomew Ebika
+  exec: true
+  position: Hardware Team
+  email: bae54@case.edu
+  imgurl: res/members/bathlomew_ebika.jpg
+  bio: Bathlomew Ebika is a System and control engineering graduate student at Case Western Reserve University, and he has over 7 years of experience working on different controllers both in the Middle East and in Africa.
+
+- name: Anthony Lino
+  exec: true
+  position: Material Science Team
+  email: aml334@case.edu
+  imgurl: res/members/anthony.jpg
+  bio: Anthony Lino is a Sophomore majoring in Materials Science and Engineering at Case Western. 
+  
+- name: Jonathan Fu
+  exec: true
+  position:  Mechanical Team
+  email: jxf459@case.edu
+  imgurl: res/wip.png
+  bio: Jonathan Fu is a Senior majoring in Mechanical Engineering at Case Western Reserve University.
+
+- name: Hunter Welch
+  exec: true
+  position:  Controller Team
+  email: hjw36@case.edu
+  imgurl: res/members/hunter.jpg
+  bio: I am a senior studying computer science. Outside of programming, I enjoy puzzles and strategy games.
+
+- name: Garrett Tieng
+  exec: true
+  position:  Mechanical Team
+  email: gxt150@case.edu
+  imgurl: res/members/garrett.jpg
+  bio: Garrett Tieng is a junior at Case Western Reserve University, studying aerospace and mechanical engineering. He joined the Arc One project in spring of 2023 as a mechanical engineer. Outside of Arc One he is also the airframe design lead at the Case Aeronautics Team.
+
+- name: Luke Sun
+  exec: true
+  position: 
+  email: todo@case.edu
+  imgurl: res/wip.png
+  bio:
+
+- name: Justin C
+  exec: true
+  position: 
+  email: todo@case.edu
+  imgurl: res/wip.png
+  bio:
+
+- name: Thomas Neumaier
+  exec: true
+  position: 
+  email: todo@case.edu
+  imgurl: res/wip.png
+  bio:
