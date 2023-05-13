@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title       : Arc One
+description : The home of Case Western Reserve University's Arc One Research Project.
+email       : rmc170@case.edu
+baseurl     : "" # the subpath of your site, e.g. /blog
+url         : "" # the base hostname & protocol for your site
+github_username : "Arc-One-CWRU"
+twitter_username: ""
+# Build settings
+markdown    : kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from

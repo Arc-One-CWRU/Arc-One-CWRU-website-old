@@ -1,0 +1,48 @@
+.roster {
+	vertical-align: text-top;
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 0px;
+}
+
+.roster h1 {
+	font-size: 28px;
+	margin: 5px auto;
+	text-align: center
+}
+
+/* similar to what appears in index.css */
+.member img {
+	height: 200px;
+	/*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+	padding-bottom: 20;
+	/*transition: all .2s ease-in-out;*/
+	border-radius: 50%;
+}
+
+.member-name {
+	font-size: 24px;
+}
+
+.bio {
+	font-size: 18px;
+}
+
+.roster p {
+	font-size: 16px;
+	margin: 5px auto;
+	text-align: center
+}
+
+.subteam_list {
+	max-width: 800px;
+	margin: 0 auto 40px auto;
+}
+
+#members {
+	width: 100%;
+	text-align: center;
+}
